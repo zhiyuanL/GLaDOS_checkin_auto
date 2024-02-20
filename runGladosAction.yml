@@ -25,7 +25,7 @@ jobs:
       - name: Run checkin
         run: |
           python3 glados.py
-        env: 
+        env:
           GLADOS_COOKIE: "${{ secrets.GLADOS_COOKIE }}"
           PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
-      - uses: gautamkrishnar/keepalive-workflow@master  
+      - uses: gautamkrishnar/keepalive-workflow@master
